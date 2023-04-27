@@ -44,6 +44,6 @@ PrintArray(array);
 Console.WriteLine("]");
 
 int sumElementsNegativePos = SumElementsNegativePos(array);
-Console.WriteLine(sumElementsNegativePos);
+Console.WriteLine($"Сумма элементов на нечетных позициях: {sumElementsNegativePos}");
 
 // не стал заполнять случайными числами, взял интервал. Огромные значения получаются, неудобно проверять.
