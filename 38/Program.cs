@@ -66,3 +66,5 @@ Console.WriteLine(max);
 double result = max - min;
 result = Math.Round(result, 1);
 Console.WriteLine($"Difference between numbers = {result}");
+
+// подумал, что отдельный метод для разницы смотрится лишним.
